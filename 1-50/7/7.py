@@ -3,6 +3,7 @@
 # Each iteration of checking can thus approximated as sqrt(x) / log (x) for iteration x, or total
 # O(n * sqrt(n) / log (n)), n = n-th prime needed
 # Alternatively, sieve methods can be used (e.g. sieve of eratosthenes), but an upper bound needs to be known beforehand
+# This can be calculated however, there are solutions in the forum that tackle this!
 
 n = 10001
 primes = []
