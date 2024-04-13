@@ -10,8 +10,11 @@ def reverse(n):
   return x
 
 ans = 0
-for i in range(999, 99, -1):
-  for j in range(999, 99, -1):
+n = 3
+start = 10 ** n - 1
+end = 10 ** (n-1) - 1
+for i in range(start, end, -1):
+  for j in range(i, end, -1):
     if i * j == reverse(i * j):
       ans = max(ans, i * j)
 
